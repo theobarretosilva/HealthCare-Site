@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #BCF4DC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#imgLogo2{
+    width: 6.5%;
+    margin: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+#pBiotipos{
+    text-align: end;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 3.3%;
+    margin-right: 5%;
+}
+
+.div1{
+    margin-top: 11%;
+    margin-left: 1%;
+}
+
+.div1 h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #1E232C;
+    margin-bottom: 0.8%;
+}
+
+.div1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #0C5C64;
+    margin-top: 0;
+}
