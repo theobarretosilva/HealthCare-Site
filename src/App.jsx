@@ -26,7 +26,7 @@ function App() {
             Além disso, as mulheres apresentam quadril mais estreito e seios com  pouco músculo e pouca gordura.
           </P2Styled>
           <Div2Styled>
-            <ImgStyled src='../../src/assets/imgs/ectomorfo.png'/>
+            <ImgStyled src='https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/ectomorfo.png?raw=true'/>
           </Div2Styled>
           <P2Styled>
             Além de apresentar um metabolismo mais rápido e, por isso, são capazes de perder peso mais facilmente, mas têm mais
@@ -41,7 +41,7 @@ function App() {
             de gordura acumulada.
           </P2Styled>
           <Div2Styled>
-            <ImgStyled src='../../src/assets/imgs/endomorfo.png'/>
+            <ImgStyled src='https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/endomorfo.png?raw=true'/>
           </Div2Styled>
           <P2Styled>
             Além de apresentarem metabolismo mais lento, maior acúmulo de gordura e têm mais dificuldade para perder peso,
@@ -56,7 +56,7 @@ function App() {
             abdominal, cintura mais fina e metabolismo mais rápido, além de ganhar massa muscular com facilidade.
           </P2Styled>
           <Div2Styled>
-            <ImgStyled src='../../src/assets/imgs/mesomorfo.png'/>
+            <ImgStyled src='https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/mesomorfo.png?raw=true'/>
           </Div2Styled>
           <P2Styled>
             A pessoa com características mesomórficas, também pode ganhar gordura corporal. Por isso, o consumo de açúcar refinado,

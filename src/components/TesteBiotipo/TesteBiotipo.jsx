@@ -7,17 +7,17 @@ export const TesteBiotipo = () => {
         <DivGeralStyled>
             <DivTesteIndividualStyled>
                 <P2Styled>Não consegue tocar os<br />dedos</P2Styled>
-                <ImgTesteStyled src="../../src/assets/imgs/testeEndomorfo.png"/>
+                <ImgTesteStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/testeEndomorfo.png?raw=true"/>
                 <SubtituloStyled>Endomorfo</SubtituloStyled>
             </DivTesteIndividualStyled>
             <DivTesteIndividualStyled>
                 <P2Styled>Encontra a ponta dos<br />dedos</P2Styled>
-                <ImgTesteStyled src="../../src/assets/imgs/testeMesomorfo.png"/>
+                <ImgTesteStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/testeMesomorfo.png?raw=true"/>
                 <SubtituloStyled>Mesomorfo</SubtituloStyled>
             </DivTesteIndividualStyled>
             <DivTesteIndividualStyled>
                 <P2Styled>Sobreposição de um<br />dedo no outro</P2Styled>
-                <ImgTesteStyled src="../../src/assets/imgs/testeEctomorfo.png"/>
+                <ImgTesteStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/testeEctomorfo.png?raw=true"/>
                 <SubtituloStyled>Ectomorfo</SubtituloStyled>
             </DivTesteIndividualStyled>
         </DivGeralStyled>
