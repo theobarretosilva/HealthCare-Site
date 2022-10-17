@@ -1,13 +1,13 @@
-import { Div1Styled } from './components/Div1/Div1.styles';
-import { Div2Styled } from './components/Div2/Div2.styles';
-import { Div3Styled } from './components/Div3/Div3.styles';
-import { Headerbar } from './components/Headerbar/Headerbar'
-import { ImgStyled } from './components/Imagens/Imagens.styles';
-import { P1Styled } from './components/P1/P1.styles';
-import { P2Styled } from './components/P2/P2.styles';
-import { SubtituloStyled } from './components/Subtitulo/Subtitulo.styles';
-import { TesteBiotipo } from './components/TesteBiotipo/TesteBiotipo';
-import { TituloStyled } from './components/TituloInicial/TituloInicial.styles';
+import { Div1Styled } from '../components/Div1/Div1.styles';
+import { Div2Styled } from '../components/Div2/Div2.styles';
+import { Div3Styled } from '../components/Div3/Div3.styles';
+import { Headerbar } from '../components/Headerbar/Headerbar'
+import { ImgStyled } from '../components/Imagens/Imagens.styles';
+import { P1Styled } from '../components/P1/P1.styles';
+import { P2Styled } from '../components/P2/P2.styles';
+import { SubtituloStyled } from '../components/Subtitulo/Subtitulo.styles';
+import { TesteBiotipo } from '../components/TesteBiotipo/TesteBiotipo';
+import { TituloStyled } from '../components/TituloInicial/TituloInicial.styles';
 
 export const TelaBiotipos = () => {
     return(
