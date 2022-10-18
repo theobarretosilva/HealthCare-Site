@@ -13,15 +13,35 @@ export const HeaderSyled = styled.header`
 export const LogoStyled = styled.img`
     width: 90px;
     margin: 1.3%;
-    margin-left: 8%;
+    margin-left: 4%;
 `
 
-export const BiotiposStyled = styled.p`
+export const DivNavStyled = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    margin-right: 4%;
+`
+
+export const PStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 19px;
-    text-decoration: underline;
-    color: black;
+    color: #063E44;
     margin: auto;
-    margin-right: 8%;
+    cursor: pointer;
+
+    :hover{
+        color: black;
+    }
+`
+
+export const PSubStyled = styled.p`
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #063E44;
+    margin: auto;
+    text-decoration: underline;
 `
