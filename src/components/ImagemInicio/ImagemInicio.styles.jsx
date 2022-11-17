@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DivImgStyled = styled.div`
     width: 100%;
-    height: 70vh;
+    height: 66vh;
     margin: 0;
     padding: 0;
     text-align: center;

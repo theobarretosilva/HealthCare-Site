@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { TelaBiotipos } from "../pages/TelaBiotipos"
-import { TelaInicial } from "../pages/TelaInicial"
+import { TelaInicial } from "../pages/TelaInicial/TelaInicial"
 
 export const Router = () => {
     return(
