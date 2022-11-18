@@ -6,7 +6,7 @@ import { PStyled, PSubStyled } from "../../components/Headerbar/Headerbar.styles
 import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
-import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled } from "./TelaInicial.styles"
+import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, DivRodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled } from "./TelaInicial.styles"
 
 export const TelaInicial = () => {
     return(
@@ -50,7 +50,9 @@ export const TelaInicial = () => {
                     </DivFotosIndStyled>
                 </DivFotosEquipeStyled>
             </DivEquipeStyled>
-            
+            <DivRodapeStyled>
+                
+            </DivRodapeStyled>
         </>
     );
 };

@@ -51,3 +51,14 @@ export const PNomeEquipeStyled = styled.p`
     font-size: 24px;
     color: white;
 `
+
+export const DivRodapeStyled = styled.footer`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+`
+
+export const DivContatosStyled = styled.div`
+    
+`
