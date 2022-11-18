@@ -11,10 +11,11 @@ export const ApresentacaoStyled = styled.h1`
 `
 export const DivEquipeStyled = styled.div`
     background: #5F9499;
-    left: 0;
-    right: 0;
     margin-top: 13%;
     padding-top: 2%;
+    margin-right: 0;
+    padding-right: 10%;
+    padding-left: 10%;
 `
 
 export const EquipeStyled = styled.h1`
@@ -29,10 +30,23 @@ export const EquipeStyled = styled.h1`
 export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 2%;
+    justify-content: space-around;
 `
 
 export const DivFotosIndStyled = styled.div`
     display: flex;
     flex-direction: column;
+    text-align: center;
+`
+
+export const ImgEquipeStyled = styled.img`
+    height: 35vh;
+    width: 35vh;
+`
+
+export const PNomeEquipeStyled = styled.p`
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
 `

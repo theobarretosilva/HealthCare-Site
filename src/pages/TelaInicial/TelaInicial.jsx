@@ -6,7 +6,7 @@ import { PStyled, PSubStyled } from "../../components/Headerbar/Headerbar.styles
 import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
-import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, EquipeStyled } from "./TelaInicial.styles"
+import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled } from "./TelaInicial.styles"
 
 export const TelaInicial = () => {
     return(
@@ -36,9 +36,21 @@ export const TelaInicial = () => {
             <DivEquipeStyled>
                 <EquipeStyled>EQUIPE</EquipeStyled>
                 <DivFotosEquipeStyled>
-                    
+                    <DivFotosIndStyled>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/clarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
+                        <PNomeEquipeStyled>Clarissa Assunção</PNomeEquipeStyled>
+                    </DivFotosIndStyled>
+                    <DivFotosIndStyled>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/eduarda.png?raw=true" alt="Foto da integrante da equipe, Eduarda"/>
+                        <PNomeEquipeStyled>Eduarda Franderlinde</PNomeEquipeStyled>
+                    </DivFotosIndStyled>
+                    <DivFotosIndStyled>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/theo.png?raw=true" alt="Foto do integrante da equipe, Théo"/>
+                        <PNomeEquipeStyled>Théo Silva</PNomeEquipeStyled>
+                    </DivFotosIndStyled>
                 </DivFotosEquipeStyled>
             </DivEquipeStyled>
+            
         </>
     );
 };
