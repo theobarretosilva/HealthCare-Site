@@ -31,6 +31,7 @@ export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 `
 
 export const DivFotosIndStyled = styled.div`

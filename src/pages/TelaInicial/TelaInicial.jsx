@@ -18,8 +18,8 @@ export const TelaInicial = () => {
                 <Div3Styled>
                     <SubtituloStyled>Sobre o Aplicativo</SubtituloStyled>
                     <P2Styled>
-                        O projeto HealthCare tem como objetivo o monitoramento da saúde por meio de um aplicativo que conta com um sistema
-                        de controle que dispõem de recursos como, monitoramentos do consumo de água e sono, contagem de passos, cálculo do
+                        O projeto HealthCare tem como objetivo o monitoramento da saúde por meio de um aplicativo que conta com um sistema<br />
+                        de controle que dispõem de recursos como, monitoramentos do consumo de água e sono, contagem de passos, cálculo do<br />
                         IMC, assim como, armazenamento e cálculo de calorias consumida por refeição e acesso a uma agenda de vacinas.
                     </P2Styled>
                 </Div3Styled>
@@ -27,8 +27,8 @@ export const TelaInicial = () => {
                 <Div3Styled>
                     <SubtituloStyled>Funcionalidades</SubtituloStyled>
                     <P2Styled>
-                    Além da funcionalidades citadas acima, para tornar a experiência ainda melhor contamos com um pacote premium, com
-                    funções que podem encaminhar o paciente para clínicas conforme sua necessidade, acessar seus resultados de exames
+                    Além da funcionalidades citadas acima, para tornar a experiência ainda melhor contamos com um pacote premium, com<br />
+                    funções que podem encaminhar o paciente para clínicas conforme sua necessidade, acessar seus resultados de exames<br />
                     sem sair de casa, além de convênios especiais com as clínicas parceiras.
                     </P2Styled>
                 </Div3Styled>
