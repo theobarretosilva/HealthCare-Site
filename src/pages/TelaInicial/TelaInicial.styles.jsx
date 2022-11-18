@@ -23,11 +23,16 @@ export const EquipeStyled = styled.h1`
     font-size: 30px;
     color: white;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 `
 
 export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
     gap: 2%;
+`
+
+export const DivFotosIndStyled = styled.div`
+    display: flex;
+    flex-direction: column;
 `
