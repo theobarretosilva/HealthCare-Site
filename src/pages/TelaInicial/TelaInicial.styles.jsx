@@ -11,11 +11,12 @@ export const ApresentacaoStyled = styled.h1`
 `
 export const DivEquipeStyled = styled.div`
     background: #5F9499;
-    margin-top: 13%;
+    margin-top: 12%;
     padding-top: 2%;
     margin-right: 0;
     padding-right: 10%;
     padding-left: 10%;
+    padding-bottom: 1%;
 `
 
 export const EquipeStyled = styled.h1`
@@ -24,7 +25,7 @@ export const EquipeStyled = styled.h1`
     font-size: 30px;
     color: white;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 `
 
 export const DivFotosEquipeStyled = styled.div`
@@ -41,8 +42,8 @@ export const DivFotosIndStyled = styled.div`
 `
 
 export const ImgEquipeStyled = styled.img`
-    height: 35vh;
-    width: 35vh;
+    height: 34vh;
+    width: 34vh;
 `
 
 export const PNomeEquipeStyled = styled.p`
@@ -52,7 +53,7 @@ export const PNomeEquipeStyled = styled.p`
     color: white;
 `
 
-export const DivRodapeStyled = styled.footer`
+export const RodapeStyled = styled.footer`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,4 +62,21 @@ export const DivRodapeStyled = styled.footer`
 
 export const DivContatosStyled = styled.div`
     
+`
+
+export const PContatosStyled = styled.p`
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #063E44;
+`
+
+export const DivContatos2Styled = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+
+export const ImgEmailStyled = styled.img`
+    width: 10vh;
+    height: 10vh;
 `
