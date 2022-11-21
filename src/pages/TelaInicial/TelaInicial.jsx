@@ -6,7 +6,7 @@ import { PStyled, PSubStyled } from "../../components/Headerbar/Headerbar.styles
 import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
-import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, RodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled, DivContatosStyled, PContatosStyled, DivContatos2Styled } from "./TelaInicial.styles"
+import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, RodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled, DivContatosStyled, PContatosStyled, DivContatos2Styled, ImgEmailStyled, PEmailStyled, ImgPhoneStyled, DivBaixeAppStyled } from "./TelaInicial.styles"
 
 export const TelaInicial = () => {
     return(
@@ -54,9 +54,17 @@ export const TelaInicial = () => {
                 <DivContatosStyled>
                     <PContatosStyled>Contatos:</PContatosStyled>
                     <DivContatos2Styled>
-                        
+                        <ImgEmailStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/mail.png?raw=true" alt="Ícone de email"/>
+                        <PEmailStyled>apphealthcare1@gmail.com</PEmailStyled>
+                    </DivContatos2Styled>
+                    <DivContatos2Styled>
+                        <ImgPhoneStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/phone.png?raw=true" alt="Ícone de telefone"/>
+                        <PEmailStyled>0800 093 3650</PEmailStyled>
                     </DivContatos2Styled>
                 </DivContatosStyled>
+                <DivBaixeAppStyled>
+                    <PContatosStyled>Baixe nosso aplicativo:</PContatosStyled>
+                </DivBaixeAppStyled>
             </RodapeStyled>
         </>
     );

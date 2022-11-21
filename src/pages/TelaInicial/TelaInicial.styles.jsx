@@ -58,10 +58,11 @@ export const RodapeStyled = styled.footer`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20%;
 `
 
 export const DivContatosStyled = styled.div`
-    
+    margin-top: 4%;
 `
 
 export const PContatosStyled = styled.p`
@@ -69,14 +70,37 @@ export const PContatosStyled = styled.p`
     font-weight: 700;
     font-size: 24px;
     color: #063E44;
+    margin-bottom: 2%;
 `
 
 export const DivContatos2Styled = styled.div`
     display: flex;
     flex-direction: row;
+    margin-top: 2%;
 `
 
 export const ImgEmailStyled = styled.img`
-    width: 10vh;
-    height: 10vh;
+    width: 10%;
+    height: 5%;
+`
+
+export const PEmailStyled = styled.p`
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #0C5C64;
+    margin: 0;
+    margin-left: 3%;
+`
+
+export const ImgPhoneStyled = styled.img`
+    width: 9%;
+    height: 5%;
+`
+
+export const DivBaixeAppStyled = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 `
