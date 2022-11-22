@@ -13,7 +13,7 @@ export const TelaInicial = () => {
         <>
             <Headerbar componentInicio={<PSubStyled>INÍCIO</PSubStyled>} componentBiotipo={<Link to={"/biotipos"} style={{ textDecoration: 'none' }}><PStyled>BIOTIPOS</PStyled></Link>}/>
             <ImagemInicio />
-            <ApresentacaoStyled>APRESENTAÇÃO</ApresentacaoStyled>
+            <ApresentacaoStyled  id="sobre">APRESENTAÇÃO</ApresentacaoStyled>
             <Div1Styled>
                 <Div3Styled>
                     <SubtituloStyled>Sobre o Aplicativo</SubtituloStyled>
@@ -33,7 +33,7 @@ export const TelaInicial = () => {
                 </Div3Styled>
             </Div1Styled>
             <DivEquipeStyled>
-                <EquipeStyled>EQUIPE</EquipeStyled>
+                <EquipeStyled id="equipe">EQUIPE</EquipeStyled>
                 <DivFotosEquipeStyled>
                     <DivFotosIndStyled>
                         <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/clarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
@@ -62,7 +62,7 @@ export const TelaInicial = () => {
                     </DivContatos2Styled>
                 </div>
                 <DivBaixeAppStyled>
-                    <PContatosStyled>Baixe o nosso aplicativo:</PContatosStyled>
+                    <PContatosStyled>Conheça nosso projeto:</PContatosStyled>
                     <ImgQrStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeGithub.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
                 </DivBaixeAppStyled>
             </RodapeStyled>

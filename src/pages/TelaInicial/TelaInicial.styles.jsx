@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ApresentacaoStyled = styled.h1`
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 2.3vw;
     color: #063E44;
     text-align: center;
     margin-top: 5%;
@@ -22,7 +22,7 @@ export const DivEquipeStyled = styled.div`
 export const EquipeStyled = styled.h1`
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
     text-align: center;
     margin-bottom: 4%;
@@ -42,8 +42,8 @@ export const DivFotosIndStyled = styled.div`
 `
 
 export const ImgEquipeStyled = styled.img`
-    height: 34vh;
-    width: 34vh;
+    height: 18vw;
+    width: 18vw;
     max-width: 100%;
 `
 
@@ -87,7 +87,7 @@ export const ImgEmailStyled = styled.img`
 export const PEmailStyled = styled.p`
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 1.5vw;
     color: #0C5C64;
     margin: 0;
     margin-left: 3%;
