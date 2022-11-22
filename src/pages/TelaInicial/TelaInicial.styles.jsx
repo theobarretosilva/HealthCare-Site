@@ -7,11 +7,11 @@ export const ApresentacaoStyled = styled.h1`
     color: #063E44;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 `
 export const DivEquipeStyled = styled.div`
     background: #5F9499;
-    margin-top: 12%;
+    margin-top: 7%;
     padding-top: 2%;
     margin-right: 0;
     padding-right: 10%;
@@ -57,12 +57,11 @@ export const RodapeStyled = styled.footer`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20%;
-`
-
-export const DivContatosStyled = styled.div`
-    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 `
 
 export const PContatosStyled = styled.p`
@@ -76,7 +75,7 @@ export const PContatosStyled = styled.p`
 export const DivContatos2Styled = styled.div`
     display: flex;
     flex-direction: row;
-    margin-top: 2%;
+    margin-top: 3%;
 `
 
 export const ImgEmailStyled = styled.img`
@@ -102,10 +101,13 @@ export const DivBaixeAppStyled = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 `
 
 export const ImgQrStyled = styled.img`
-    width: 15%;
-    height: 15%;
+    width: 50%;
+    height: 70%;
+    margin-top: 0;
 `

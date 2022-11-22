@@ -4,7 +4,7 @@ export const ImagemInicio = () => {
     return(
         <DivImgStyled>
             <Div8Styled>
-                <NomeLogoStyled>HEALTH<NomeLogo2Styled>CARE</NomeLogo2Styled></NomeLogoStyled>
+                <NomeLogoStyled>HEALTH</NomeLogoStyled><NomeLogo2Styled>CARE</NomeLogo2Styled>
             </Div8Styled>
         </DivImgStyled>
     );

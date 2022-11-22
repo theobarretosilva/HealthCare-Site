@@ -23,8 +23,6 @@ export const NomeLogoStyled = styled.h1`
     color: #033439;
     font-weight: 500;
     margin: 0;
-    margin-top: 12%;
-    text-align: center;
 `
 
 export const NomeLogo2Styled = styled.h1`
@@ -34,5 +32,4 @@ export const NomeLogo2Styled = styled.h1`
     font-weight: 600;
     margin: 0;
     margin-top: 12%;
-    text-align: center;
 `

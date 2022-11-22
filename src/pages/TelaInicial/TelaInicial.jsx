@@ -6,7 +6,7 @@ import { PStyled, PSubStyled } from "../../components/Headerbar/Headerbar.styles
 import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
-import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, RodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled, DivContatosStyled, PContatosStyled, DivContatos2Styled, ImgEmailStyled, PEmailStyled, ImgPhoneStyled, DivBaixeAppStyled } from "./TelaInicial.styles"
+import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, RodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled, PContatosStyled, DivContatos2Styled, ImgEmailStyled, PEmailStyled, ImgPhoneStyled, DivBaixeAppStyled, ImgQrStyled } from "./TelaInicial.styles"
 
 export const TelaInicial = () => {
     return(
@@ -23,7 +23,6 @@ export const TelaInicial = () => {
                         IMC, assim como, armazenamento e cálculo de calorias consumida por refeição e acesso a uma agenda de vacinas.
                     </P2Styled>
                 </Div3Styled>
-                <br />
                 <Div3Styled>
                     <SubtituloStyled>Funcionalidades</SubtituloStyled>
                     <P2Styled>
@@ -51,7 +50,7 @@ export const TelaInicial = () => {
                 </DivFotosEquipeStyled>
             </DivEquipeStyled>
             <RodapeStyled>
-                <DivContatosStyled>
+                <div>
                     <PContatosStyled>Contatos:</PContatosStyled>
                     <DivContatos2Styled>
                         <ImgEmailStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/mail.png?raw=true" alt="Ícone de email"/>
@@ -61,9 +60,10 @@ export const TelaInicial = () => {
                         <ImgPhoneStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/phone.png?raw=true" alt="Ícone de telefone"/>
                         <PEmailStyled>0800 093 3650</PEmailStyled>
                     </DivContatos2Styled>
-                </DivContatosStyled>
+                </div>
                 <DivBaixeAppStyled>
                     <PContatosStyled>Baixe o nosso aplicativo:</PContatosStyled>
+                    <ImgQrStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeGithub.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
                 </DivBaixeAppStyled>
             </RodapeStyled>
         </>
