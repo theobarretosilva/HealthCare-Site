@@ -15,6 +15,7 @@ export const DivImgStyled = styled.div`
 
 export const Div8Styled = styled.div`
     display: flex;
+    align-items: center;
 `
 
 export const NomeLogoStyled = styled.h1`
@@ -31,5 +32,4 @@ export const NomeLogo2Styled = styled.h1`
     color: #00A79D;
     font-weight: 600;
     margin: 0;
-    margin-top: 12%;
 `
