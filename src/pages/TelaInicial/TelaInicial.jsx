@@ -63,7 +63,7 @@ export const TelaInicial = () => {
                     </DivContatos2Styled>
                 </DivContatosStyled>
                 <DivBaixeAppStyled>
-                    <PContatosStyled>Baixe nosso aplicativo:</PContatosStyled>
+                    <PContatosStyled>Baixe o nosso aplicativo:</PContatosStyled>
                 </DivBaixeAppStyled>
             </RodapeStyled>
         </>

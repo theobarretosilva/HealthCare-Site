@@ -104,3 +104,8 @@ export const DivBaixeAppStyled = styled.div`
     text-align: center;
     justify-content: center;
 `
+
+export const ImgQrStyled = styled.img`
+    width: 15%;
+    height: 15%;
+`
