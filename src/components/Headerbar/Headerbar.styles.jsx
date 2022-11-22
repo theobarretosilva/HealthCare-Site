@@ -4,6 +4,7 @@ export const HeaderSyled = styled.header`
     background: #B2E8D0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     top: 0;
     left: 0;
@@ -11,7 +12,8 @@ export const HeaderSyled = styled.header`
 `
 
 export const LogoStyled = styled.img`
-    width: 90px;
+    width: 7vw;
+    height: 7vw;
     margin: 1.3%;
     margin-left: 4%;
 `
@@ -19,18 +21,19 @@ export const LogoStyled = styled.img`
 export const DivNavStyled = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     gap: 35px;
     margin-right: 4%;
+    align-items: center;
+    flex-wrap: wrap;
 `
 
 export const PStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.5vw;
     color: #063E44;
-    margin: auto;
     cursor: pointer;
+    text-decoration: none;
 
     :hover{
         color: black;
@@ -40,7 +43,7 @@ export const PStyled = styled.p`
 export const PSubStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.5vw;
     color: #063E44;
     margin: auto;
     text-decoration: underline;

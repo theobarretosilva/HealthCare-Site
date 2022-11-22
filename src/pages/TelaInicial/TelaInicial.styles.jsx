@@ -44,6 +44,7 @@ export const DivFotosIndStyled = styled.div`
 export const ImgEquipeStyled = styled.img`
     height: 34vh;
     width: 34vh;
+    max-width: 100%;
 `
 
 export const PNomeEquipeStyled = styled.p`
@@ -60,8 +61,8 @@ export const RodapeStyled = styled.footer`
     justify-content: center;
     align-items: center;
     gap: 30%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 `
 
 export const PContatosStyled = styled.p`
