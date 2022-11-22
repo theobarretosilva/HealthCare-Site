@@ -12,7 +12,7 @@ export const TelaInicial = () => {
         <>
             <Headerbar componentInicio={<PSubStyled>INÍCIO</PSubStyled>} componentBiotipo={<PStyled href="/biotipos">BIOTIPOS</PStyled>}/>
             <ImagemInicio />
-            <ApresentacaoStyled  id="sobre">APRESENTAÇÃO</ApresentacaoStyled>
+            <ApresentacaoStyled>APRESENTAÇÃO</ApresentacaoStyled>
             <Div1Styled>
                 <Div3Styled>
                     <SubtituloStyled>Sobre o Aplicativo</SubtituloStyled>
@@ -32,7 +32,7 @@ export const TelaInicial = () => {
                 </Div3Styled>
             </Div1Styled>
             <DivEquipeStyled>
-                <EquipeStyled id="equipe">EQUIPE</EquipeStyled>
+                <EquipeStyled>EQUIPE</EquipeStyled>
                 <DivFotosEquipeStyled>
                     <DivFotosIndStyled>
                         <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/clarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>

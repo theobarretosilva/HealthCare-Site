@@ -1,16 +1,18 @@
 import styled from "styled-components";
 
 export const HeaderSyled = styled.header`
-    background: #B2E8D0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    right: 0;
-
+    @media (min-width: 650px){
+        background: #B2E8D0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
     @media (max-width: 650px) {
         background: #B2E8D0;
         display: flex;
@@ -58,15 +60,17 @@ export const DivNavStyled = styled.div`
 `
 
 export const PStyled = styled.a`
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.3vw;
-    color: #063E44;
-    cursor: pointer;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.3vw;
+        color: #063E44;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    
     :hover{
         color: black;
     }
@@ -82,12 +86,14 @@ export const PStyled = styled.a`
 `
 
 export const PSubStyled = styled.p`
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.3vw;
-    color: #063E44;
-    margin: auto;
-    text-decoration: underline;
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.3vw;
+        color: #063E44;
+        margin: auto;
+        text-decoration: underline;
+    }
 
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;

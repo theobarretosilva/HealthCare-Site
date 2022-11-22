@@ -1,13 +1,26 @@
 import styled from "styled-components";
 
 export const ApresentacaoStyled = styled.h1`
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 2.3vw;
-    color: #063E44;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 4%;
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 2.3vw;
+        color: #063E44;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        color: #063E44;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    
 `
 export const DivEquipeStyled = styled.div`
     background: #5F9499;
@@ -20,12 +33,23 @@ export const DivEquipeStyled = styled.div`
 `
 
 export const EquipeStyled = styled.h1`
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 2vw;
-    color: white;
-    text-align: center;
-    margin-bottom: 4%;
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 6.5vw;
+        color: white;
+        text-align: center;
+        margin-bottom: 6%;
+    }
 `
 
 export const DivFotosEquipeStyled = styled.div`
@@ -38,13 +62,21 @@ export const DivFotosEquipeStyled = styled.div`
 export const DivFotosIndStyled = styled.div`
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 `
 
 export const ImgEquipeStyled = styled.img`
-    height: 18vw;
-    width: 18vw;
-    max-width: 100%;
+    @media (min-width: 650px){
+        height: 18vw;
+        width: 18vw;
+        max-width: 100%;
+    }
+
+    @media (max-width: 650px){
+        height: 40vw;
+        width: 40vw;
+        max-width: 100%;
+    }
 `
 
 export const PNomeEquipeStyled = styled.p`
@@ -57,7 +89,6 @@ export const PNomeEquipeStyled = styled.p`
 export const RodapeStyled = styled.footer`
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30%;
@@ -66,11 +97,21 @@ export const RodapeStyled = styled.footer`
 `
 
 export const PContatosStyled = styled.p`
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: #063E44;
-    margin-bottom: 2%;
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #063E44;
+        margin-bottom: 2%;
+    }
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 7vw;
+        color: #063E44;
+        margin-bottom: 2%;
+    }
 `
 
 export const DivContatos2Styled = styled.div`
