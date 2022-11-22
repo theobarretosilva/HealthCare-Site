@@ -14,9 +14,9 @@ export const HeaderSyled = styled.header`
     @media (max-width: 650px) {
         background: #B2E8D0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         top: 0;
         left: 0;
         right: 0;
@@ -32,8 +32,8 @@ export const LogoStyled = styled.img`
     }
 
     @media (max-width: 650px){
-        width: 7vw;
-        height: 6.2vw;
+        width: 17vw;
+        height: 15vw;
         margin: 1.3%;
     }
 `
@@ -74,7 +74,7 @@ export const PStyled = styled.a`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3vw;
         color: #063E44;
         cursor: pointer;
         text-decoration: none;
@@ -92,7 +92,7 @@ export const PSubStyled = styled.p`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 2vw;
+        font-size: 3vw;
         color: #063E44;
         cursor: pointer;
         text-decoration: none;
