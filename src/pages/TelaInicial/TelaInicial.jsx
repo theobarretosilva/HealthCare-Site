@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { Div1Styled } from "../../components/Div1/Div1.styles"
 import { Div3Styled } from "../../components/Div3/Div3.styles"
 import { Headerbar } from "../../components/Headerbar/Headerbar"
@@ -11,7 +10,7 @@ import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndS
 export const TelaInicial = () => {
     return(
         <>
-            <Headerbar componentInicio={<PSubStyled>INÍCIO</PSubStyled>} componentBiotipo={<Link to={"/biotipos"} style={{ textDecoration: 'none' }}><PStyled>BIOTIPOS</PStyled></Link>}/>
+            <Headerbar componentInicio={<PSubStyled>INÍCIO</PSubStyled>} componentBiotipo={<PStyled href="/biotipos">BIOTIPOS</PStyled>}/>
             <ImagemInicio />
             <ApresentacaoStyled  id="sobre">APRESENTAÇÃO</ApresentacaoStyled>
             <Div1Styled>

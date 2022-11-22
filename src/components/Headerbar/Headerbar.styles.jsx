@@ -51,7 +51,7 @@ export const DivNavStyled = styled.div`
     @media (max-width: 650px){
         display: flex;
         flex-direction: column;
-        gap: 4vw;
+        gap: 2vw;
         align-items: center;
         flex-wrap: wrap;
     }
@@ -64,6 +64,8 @@ export const PStyled = styled.a`
     color: #063E44;
     cursor: pointer;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 
     :hover{
         color: black;
@@ -82,8 +84,17 @@ export const PStyled = styled.a`
 export const PSubStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #063E44;
     margin: auto;
     text-decoration: underline;
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 2vw;
+        color: #063E44;
+        cursor: pointer;
+        text-decoration: none;
+    }
 `
