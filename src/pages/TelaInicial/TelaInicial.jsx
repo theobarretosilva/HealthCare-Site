@@ -60,7 +60,7 @@ export const TelaInicial = () => {
                 <DivBaixeAppStyled>
                     <PContatosStyled>Conheça nosso projeto:</PContatosStyled>
                     <ImgQrStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeGithub.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
-                    <LinkStyled href="https://github.com/theobarretosilva/HealthCare" target='_blank'>https://github.com/theobarretosilva/HealthCare</LinkStyled>
+                    <LinkStyled href="https://github.com/theobarretosilva/HealthCare" target='_blank'>Projeto HealthCare</LinkStyled>
                 </DivBaixeAppStyled>
             </RodapeStyled>
         </>

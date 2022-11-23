@@ -222,16 +222,17 @@ export const LinkStyled = styled.a`
         color: #0C5C64;
         margin: 0;
         margin-left: 3%;
-        text-decoration: none;
+        text-decoration: underline;
     }
 
     @media (max-width: 650px){
         font-family: 'Urbanist', sans-serif;
         font-weight: 400;
-        font-size: 5vw;
+        font-size: 6vw;
         color: #0C5C64;
         margin: 0;
         margin-left: 3%;
-        text-decoration: none;
+        margin-top: 1%;
+        text-decoration: underline;
     }
 `
