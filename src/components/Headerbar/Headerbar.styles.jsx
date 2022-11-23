@@ -69,10 +69,13 @@ export const PStyled = styled.a`
         text-decoration: none;
         margin: 0;
         padding: 0;
-    }
-    
-    :hover{
-        color: black;
+
+        :hover{
+            color: black;
+        }
+        :visited{
+            color: #063E44;
+        }
     }
 
     @media (max-width: 650px){
@@ -82,6 +85,13 @@ export const PStyled = styled.a`
         color: #063E44;
         cursor: pointer;
         text-decoration: none;
+
+        :hover{
+            color: black;
+        }
+        :visited{
+            color: #063E44;
+        }
     }
 `
 
