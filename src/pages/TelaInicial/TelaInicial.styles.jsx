@@ -104,7 +104,7 @@ export const RodapeStyled = styled.footer`
         align-items: center;
         gap: 30%;
         padding-top: 1%;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
     }
 `
 
