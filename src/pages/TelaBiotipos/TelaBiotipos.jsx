@@ -86,7 +86,7 @@ export const TelaBiotipos = () => {
                 </DivContatosStyled2>
                 <DivBaixeAppStyled2>
                     <PContatosStyled2>Conheça nosso projeto:</PContatosStyled2>
-                    <ImgQrStyled2 src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeGithub.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
+                    <ImgQrStyled2 src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeBranco.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
                     <LinkStyled2 href="https://github.com/theobarretosilva/HealthCare" target='_blank'>Projeto HealthCare</LinkStyled2>
                 </DivBaixeAppStyled2>
             </RodapeStyled2>
