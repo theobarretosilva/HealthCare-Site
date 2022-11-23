@@ -14,7 +14,7 @@ export const ApresentacaoStyled = styled.h1`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 900;
-        font-size: 4vw;
+        font-size: 5vw;
         color: #063E44;
         text-align: center;
         margin-top: 5%;
