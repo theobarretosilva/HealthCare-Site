@@ -12,7 +12,7 @@ export const SubtituloStyled = styled.h2`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 4.5vw;
+        font-size: 5.2vw;
         color: #063E44;
         margin-bottom: 0;
     }
