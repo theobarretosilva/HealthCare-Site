@@ -18,7 +18,7 @@ export const ApresentacaoStyled = styled.h1`
         color: #063E44;
         text-align: center;
         margin-top: 5%;
-        margin-bottom: 4%;
+        margin-bottom: 5%;
     }
     
 `

@@ -52,8 +52,8 @@ export const DivNavStyled = styled.div`
     
     @media (max-width: 650px){
         display: flex;
-        flex-direction: column;
-        gap: 2vw;
+        flex-direction: row;
+        gap: 7vw;
         align-items: center;
         flex-wrap: wrap;
     }
