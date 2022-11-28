@@ -36,7 +36,7 @@ export const TelaInicial = () => {
                 <EquipeStyled>EQUIPE</EquipeStyled>
                 <DivFotosEquipeStyled>
                     <DivFotosIndStyled>
-                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/clarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/fotoIntegranteClarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
                         <PNomeEquipeStyled>Clarissa Assunção</PNomeEquipeStyled>
                     </DivFotosIndStyled>
                     <DivFotosIndStyled>
