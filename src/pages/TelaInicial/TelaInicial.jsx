@@ -40,11 +40,11 @@ export const TelaInicial = () => {
                         <PNomeEquipeStyled>Clarissa Assunção</PNomeEquipeStyled>
                     </DivFotosIndStyled>
                     <DivFotosIndStyled>
-                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/eduarda.png?raw=true" alt="Foto da integrante da equipe, Eduarda"/>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/fotoIntegranteEduarda.png?raw=true" alt="Foto da integrante da equipe, Eduarda"/>
                         <PNomeEquipeStyled>Eduarda Franderlinde</PNomeEquipeStyled>
                     </DivFotosIndStyled>
                     <DivFotosIndStyled>
-                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/theo.png?raw=true" alt="Foto do integrante da equipe, Théo"/>
+                        <ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/fotoIntegranteTheo.png?raw=true" alt="Foto do integrante da equipe, Théo"/>
                         <PNomeEquipeStyled>Théo Silva</PNomeEquipeStyled>
                     </DivFotosIndStyled>
                 </DivFotosEquipeStyled>
