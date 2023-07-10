@@ -9,6 +9,7 @@ import { SubtituloStyled } from '../../components/Subtitulo/Subtitulo.styles';
 import { TesteBiotipo } from '../../components/TesteBiotipo/TesteBiotipo';
 import { TituloStyled } from '../../components/TituloInicial/TituloInicial.styles';
 import { DivBaixeAppStyled2, DivContatos2Styled2, DivContatosStyled2, ImgEmailStyled2, ImgQrStyled2, LinkStyled2, PContatosStyled2, PEmailStyled2, RodapeStyled2 } from './TelaBiotipos.styles';
+import React from 'react';
 
 export const TelaBiotipos = () => {
     return(

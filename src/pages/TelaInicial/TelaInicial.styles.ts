@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ApresentacaoStyled = styled.h1`
+export const H1Apres = styled.h1`
     @media (min-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 900;
@@ -55,8 +55,8 @@ export const EquipeStyled = styled.h1`
 export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
 `
 
 export const DivFotosIndStyled = styled.div`
