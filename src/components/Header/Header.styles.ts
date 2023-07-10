@@ -62,10 +62,63 @@ export const UlLink = styled.div`
     }
 `
 
+export const PStyled = styled.a`
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.3vw;
+        color: #063E44;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+
+        :hover{
+            color: black;
+        }
+        :visited{
+            color: #063E44;
+        }
+    }
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        color: #063E44;
+        cursor: pointer;
+        text-decoration: none;
+
+        :hover{
+            color: black;
+        }
+        :visited{
+            color: #063E44;
+        }
+    }
+`
+
 export const NavLinkStyled = styled(NavLink)`
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.3vw;
-    color: #063E44;
-    text-decoration: none;
+    @media (min-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.3vw;
+        color: #063E44;
+
+        :hover{
+            color: black;
+        }
+    }
+
+    @media (max-width: 650px){
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        color: #063E44;
+
+        :hover{
+            color: black;
+        }
+    }
+    
 `
