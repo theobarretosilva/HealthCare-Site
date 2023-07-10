@@ -1,7 +1,7 @@
 import { Div1Styled } from "../../components/Div1/Div1.styles"
 import { Div3Styled } from "../../components/Div3/Div3.styles"
 import { Header } from "../../components/Header/Header"
-import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
+import { ImgHC } from "../../components/ImgHC/ImgHC"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
 import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndStyled, RodapeStyled, EquipeStyled, ImgEquipeStyled, PNomeEquipeStyled, PContatosStyled, DivContatos2Styled, ImgEmailStyled, PEmailStyled, DivBaixeAppStyled, ImgQrStyled, DivContatosStyled, LinkStyled } from "./TelaInicial.styles"
@@ -10,7 +10,7 @@ export const TelaInicial = () => {
     return(
         <>
             <Header />
-            <ImagemInicio />
+            <ImgHC />
             <ApresentacaoStyled>APRESENTAÇÃO</ApresentacaoStyled>
             <Div1Styled>
                 <Div3Styled>

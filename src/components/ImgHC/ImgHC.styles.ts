@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DivImgStyled = styled.div`
+export const Section = styled.section`
     @media (min-width: 650px){
         width: 100%;
         height: 29vw;
@@ -10,6 +10,7 @@ export const DivImgStyled = styled.div`
         display: flex;
         justify-content: center;
         justify-items: center;
+        align-items: center;
         background-size: 100%;
         background-image: url(https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/imagemInicial.png?raw=true);
         background-repeat: no-repeat;
@@ -24,15 +25,11 @@ export const DivImgStyled = styled.div`
         display: flex;
         justify-content: center;
         justify-items: center;
+        align-items: center;
         background-size: 100%;
         background-image: url(https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/imagemInicial.png?raw=true);
         background-repeat: no-repeat;
     }
-`
-
-export const Div8Styled = styled.div`
-    display: flex;
-    align-items: center;
 `
 
 export const NomeLogoStyled = styled.h1`
