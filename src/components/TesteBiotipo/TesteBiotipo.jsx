@@ -1,4 +1,4 @@
-import { P2Styled } from "../P2/P2.styles"
+import { P2Styled } from "../TextoBase/TextoBase.styles"
 import { SubtituloStyled } from "../Subtitulo/Subtitulo.styles"
 import { DivGeralStyled, DivTesteIndividualStyled, ImgTesteStyled } from "./TesteBiotipo.styles"
 

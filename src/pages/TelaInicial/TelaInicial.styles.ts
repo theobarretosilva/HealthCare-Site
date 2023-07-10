@@ -20,9 +20,9 @@ export const H1Apres = styled.h1`
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    
 `
-export const DivEquipeStyled = styled.div`
+
+export const SectionEquipe = styled.div`
     background: #5F9499;
     margin-top: 7%;
     padding-top: 2%;
