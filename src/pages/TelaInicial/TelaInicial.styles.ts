@@ -24,8 +24,8 @@ export const H1Apres = styled.h1`
 
 export const SectionEquipe = styled.div`
     background: #5F9499;
-    margin-top: 7%;
-    padding-top: 2%;
+    margin-top: 11vh;
+    padding-top: 1vh;
     margin-right: 0;
     padding-right: 10%;
     padding-left: 10%;

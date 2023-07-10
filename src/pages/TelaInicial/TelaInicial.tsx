@@ -13,7 +13,7 @@ export const TelaInicial = () => {
             <Header />
             <ImgHC />
             <section>
-                <S.H1Apres>APRESENTAÇÃO</S.H1Apres>
+                <S.H1Apres color="primary">APRESENTAÇÃO</S.H1Apres>
                 <DivCentralizadora>
                     <SubDiv>
                         <TituloInicial>Sobre o Aplicativo</TituloInicial>
@@ -34,7 +34,7 @@ export const TelaInicial = () => {
                 </DivCentralizadora>
             </section>
             <S.SectionEquipe>
-                <S.EquipeStyled>EQUIPE</S.EquipeStyled>
+                <S.H1Apres style={{ color: 'white' }}>EQUIPE</S.H1Apres>
                 <S.DivFotosEquipeStyled>
                     <S.DivFotosIndStyled>
                         <S.ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/fotoIntegranteClarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
