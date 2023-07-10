@@ -55,8 +55,8 @@ export const EquipeStyled = styled.h1`
 export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 
 export const DivFotosIndStyled = styled.div`
