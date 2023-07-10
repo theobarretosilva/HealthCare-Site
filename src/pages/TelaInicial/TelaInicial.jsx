@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom"
 import { Div1Styled } from "../../components/Div1/Div1.styles"
 import { Div3Styled } from "../../components/Div3/Div3.styles"
-import { Headerbar } from "../../components/Headerbar/Headerbar"
-import { PStyled, PSubStyled } from "../../components/Headerbar/Headerbar.styles"
+import { Header } from "../../components/Header/Header"
 import { ImagemInicio } from "../../components/ImagemInicio/ImagemInicio"
 import { P2Styled } from "../../components/P2/P2.styles"
 import { SubtituloStyled } from "../../components/Subtitulo/Subtitulo.styles"
@@ -11,7 +9,7 @@ import { ApresentacaoStyled, DivEquipeStyled, DivFotosEquipeStyled, DivFotosIndS
 export const TelaInicial = () => {
     return(
         <>
-            <Headerbar componentInicio={<PSubStyled>INÍCIO</PSubStyled>} componentBiotipo={<Link to={"/biotipos"} style={{ textDecoration: 'none' }}><PStyled>BIOTIPOS</PStyled></Link>}/>
+            <Header />
             <ImagemInicio />
             <ApresentacaoStyled>APRESENTAÇÃO</ApresentacaoStyled>
             <Div1Styled>

@@ -1,9 +1,7 @@
-import { Link } from 'react-router-dom';
 import { Div1Styled } from '../../components/Div1/Div1.styles';
 import { Div2Styled } from '../../components/Div2/Div2.styles';
 import { Div3Styled } from '../../components/Div3/Div3.styles';
-import { Headerbar } from '../../components/Headerbar/Headerbar'
-import { PStyled, PSubStyled } from '../../components/Headerbar/Headerbar.styles';
+import { Header } from '../../components/Header/Header'
 import { ImgStyled } from '../../components/Imagens/Imagens.styles';
 import { P1Styled } from '../../components/P1/P1.styles';
 import { P2Styled } from '../../components/P2/P2.styles';
@@ -15,7 +13,7 @@ import { DivBaixeAppStyled2, DivContatos2Styled2, DivContatosStyled2, ImgEmailSt
 export const TelaBiotipos = () => {
     return(
         <>
-            <Headerbar componentInicio={<Link to={"/"} style={{ textDecoration: 'none' }}><PStyled>INÍCIO</PStyled></Link>} componentBiotipo={<PSubStyled>BIOTIPOS</PSubStyled>}/>
+            <Header />
             <Div1Styled>
                 <TituloStyled>Tipos de biotipos</TituloStyled>
                 <P1Styled>Os biotipos corporais podem ser classificados de acordo com as suas características. Os principais biotipos são: ectomorfo, endomorfo e mesomorfo.</P1Styled>
