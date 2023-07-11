@@ -1,11 +1,20 @@
 import styled from "styled-components";
 
 export const DivGeralStyled = styled.div`
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 4vh 5vw 4vh 5vw;
+    @media (min-width: 650px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 4vh 5vw 4vh 5vw;
+    }
+
+    @media (max-width: 650px){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 4vh 5vw 4vh 5vw;
+    }
+    
 `
 
 export const DivTesteIndividualStyled = styled.div`
