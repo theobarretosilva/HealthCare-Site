@@ -16,38 +16,20 @@ export const SectionEquipe = styled.div`
     
 `
 
-export const EquipeStyled = styled.h1`
-    @media (min-width: 650px){
-        font-family: 'Inter', sans-serif;
-        font-weight: 900;
-        font-size: 2vw;
-        color: white;
-        text-align: center;
-        margin-bottom: 4%;
-    }
-
-    @media (max-width: 650px){
-        font-family: 'Inter', sans-serif;
-        font-weight: 900;
-        font-size: 6.5vw;
-        color: white;
-        text-align: center;
-        margin-bottom: 6%;
-    }
-`
-
 export const DivFotosEquipeStyled = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 `
 
 export const DivFotosIndStyled = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 `
 
 export const ImgEquipeStyled = styled.img`

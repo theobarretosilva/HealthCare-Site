@@ -14,7 +14,7 @@ export const TituloBase = styled.h1`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 900;
-        font-size: 5.2vw;
+        font-size: 5.4vw;
         color: #063E44;
         text-align: center;
         margin-top: 6vh;
