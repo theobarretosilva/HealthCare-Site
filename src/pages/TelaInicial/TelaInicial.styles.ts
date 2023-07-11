@@ -61,4 +61,5 @@ export const PNomeEquipeStyled = styled.p`
     font-weight: 500;
     font-size: 24px;
     color: white;
+    margin-top: 1vh;
 `
