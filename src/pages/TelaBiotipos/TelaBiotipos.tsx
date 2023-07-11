@@ -72,7 +72,7 @@ export const TelaBiotipos = () => {
                     e o polegar. Assim como na imagem abaixo:
                 </TextoBase>
                 <TesteBiotipo />
-                <TextoBase style={{ color: 'white' }}>Importante: esse teste não é oficial, mas pode te ajudar a ter uma noção do seu biotipo.</TextoBase>
+                <TextoBase style={{ color: 'white' }}>IMPORTANTE: esse teste não é oficial, mas pode te ajudar a ter uma noção do seu biotipo.</TextoBase>
             </S.SectionTeste>
             <Footer />
         </>

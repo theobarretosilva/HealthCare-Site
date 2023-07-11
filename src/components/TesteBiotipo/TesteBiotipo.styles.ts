@@ -5,18 +5,16 @@ export const DivGeralStyled = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin: 4vh 5vw 4vh 5vw;
 `
 
 export const DivTesteIndividualStyled = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 15vw;
 `
 
 export const ImgTesteStyled = styled.img`
-    width: 240px;
+    width: 15vw;
 `
