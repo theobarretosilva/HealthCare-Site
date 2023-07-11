@@ -20,12 +20,19 @@ export const SectionEquipe = styled.div`
 `
 
 export const DivFotosEquipeStyled = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
+    @media (min-width: 650px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 650px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const DivFotosIndStyled = styled.div`
