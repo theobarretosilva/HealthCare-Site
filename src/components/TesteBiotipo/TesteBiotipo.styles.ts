@@ -5,6 +5,7 @@ export const DivGeralStyled = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
     margin: 4vh 5vw 4vh 5vw;
 `
 
@@ -27,4 +28,8 @@ export const DivTesteIndividualStyled = styled.div`
 
 export const ImgTesteStyled = styled.img`
     width: 15vw;
+
+    @media (max-width: 650px){
+        width: 20vw;
+    }
 `
