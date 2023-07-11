@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const SectionEquipe = styled.div`
-    background: #5F9499;
-    margin-top: 11vh;
-    padding-top: 1vh;
-    margin-right: 0;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 1%;
+    @media (min-width: 650px){
+        background: #5F9499;
+        margin: 11vh 0 0 0;
+        padding: 1vh 10vw 2vh 10vw;
+    }
+
+    @media (max-width: 650px){
+        background: #5F9499;
+        margin: 11vh 0 0 0;
+        padding: 1vh 10vw 2vh 10vw;
+        
+    }
+    
 `
 
 export const EquipeStyled = styled.h1`
@@ -35,6 +41,7 @@ export const DivFotosEquipeStyled = styled.div`
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 `
 
 export const DivFotosIndStyled = styled.div`

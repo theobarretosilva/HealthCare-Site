@@ -65,7 +65,7 @@ export const NavLinkStyled = styled(NavLink)`
     @media (min-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 1.3vw;
+        font-size: 1.4vw;
         color: #063E44;
 
         :hover{
@@ -76,7 +76,7 @@ export const NavLinkStyled = styled(NavLink)`
     @media (max-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 3vw;
+        font-size: 3.2vw;
         color: #063E44;
 
         :hover{
