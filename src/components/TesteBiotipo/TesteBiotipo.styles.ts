@@ -20,7 +20,7 @@ export const DivTesteIndividualStyled = styled.div`
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 20vw;
+        width: 30vw;
     }
     
 `
