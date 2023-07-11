@@ -9,10 +9,20 @@ export const DivGeralStyled = styled.div`
 `
 
 export const DivTesteIndividualStyled = styled.div`
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 15vw;
+    @media (min-width: 650px){
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 15vw;
+    }
+
+    @media (max-width: 650px){
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 20vw;
+    }
+    
 `
 
 export const ImgTesteStyled = styled.img`
