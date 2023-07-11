@@ -5,13 +5,16 @@ export const SectionEquipe = styled.div`
         background: #5F9499;
         margin: 11vh 0 0 0;
         padding: 1vh 10vw 2vh 10vw;
+        
     }
 
     @media (max-width: 650px){
         background: #5F9499;
         margin: 11vh 0 0 0;
         padding: 1vh 10vw 2vh 10vw;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
 `
