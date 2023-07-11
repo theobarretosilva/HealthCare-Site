@@ -1,18 +1,15 @@
 import { DivCentralizadora } from "../../components/DivCentralizadora/DivCentralizadora.styles"
 import { SubDiv } from "../../components/SubDiv/SubDiv.styles"
-import { Header } from "../../components/Header/Header"
 import { ImgHC } from "../../components/ImgHC/ImgHC"
 import { TextoBase } from "../../components/TextoBase/TextoBase.styles"
-import * as S from "./TelaInicial.styles"
-import React from "react"
 import { TituloInicial } from "../../components/TituloInicial/TituloInicial.styles"
 import { TituloBase } from "../../components/TituloBase/TituloBase"
-import { Footer } from "../../components/Footer/Footer"
+import * as S from "./TelaInicial.styles"
+import React from "react"
 
 export const TelaInicial = () => {
     return(
         <>
-            <Header />
             <ImgHC />
             <section>
                 <TituloBase>APRESENTAÇÃO</TituloBase>
@@ -52,7 +49,6 @@ export const TelaInicial = () => {
                     </S.DivFotosIndStyled>
                 </S.DivFotosEquipeStyled>
             </S.SectionEquipe>
-            <Footer />
         </>
     );
 };

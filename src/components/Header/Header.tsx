@@ -8,7 +8,10 @@ export const Header = () => {
 
     useEffect(() => {
         if (location.pathname == "/") {
-            setUnderline(false);
+            setUnderline(true);
+        }
+        if (location.pathname == "/biotipos") {
+            setUnderline(false)
         }
     }, [location.pathname])
 
@@ -17,10 +20,10 @@ export const Header = () => {
             <S.LogoStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/logoNome.png?raw=true"/>
             <S.UlLink>
                 <li>
-                    <S.NavLinkStyled style={{ textDecoration: `${underline ? 'none' : 'underline'}` }} to={'/'}>INÍCIO</S.NavLinkStyled>
+                    <S.NavLinkStyled style={{ textDecoration: `${!underline ? 'none' : 'underline'}` }} to={'/'}>INÍCIO</S.NavLinkStyled>
                 </li>
                 <li>
-                    <S.NavLinkStyled style={{ textDecoration: `${!underline ? 'none' : 'underline'}` }} to={'/biotipos'}>BIOTIPOS</S.NavLinkStyled>
+                    <S.NavLinkStyled style={{ textDecoration: `${underline ? 'none' : 'underline'}` }} to={'/biotipos'}>BIOTIPOS</S.NavLinkStyled>
                 </li>
             </S.UlLink>
         </S.HeaderSyled>

@@ -13,3 +13,13 @@ export const SectionTeste = styled.div`
 export const CentralizaImg = styled.div`
     text-align: center;
 `
+
+export const ImgBiotipo = styled.img`
+    @media (min-width: 650px){
+        width: 15vw;
+    }
+
+    @media (max-width: 650px){
+        width: 45vw;
+    }
+`
