@@ -30,14 +30,13 @@ export const LogoStyled = styled.img`
     @media (min-width: 650px){
         width: 7vw;
         height: 6.2vw;
-        margin: 1.3%;
-        margin-left: 4%;
+        margin: 2.2vh 2.2vw 2.2vh 4vw;
     }
 
     @media (max-width: 650px){
         width: 17vw;
         height: 15vw;
-        margin: 1.3%;
+        margin: 2.2vh;
     }
 `
 

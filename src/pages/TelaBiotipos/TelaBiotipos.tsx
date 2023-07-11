@@ -6,16 +6,17 @@ import { ImgStyled } from '../../components/Imagens/Imagens.styles';
 import { TextoBase } from '../../components/TextoBase/TextoBase.styles';
 import { SubtituloStyled } from '../../components/Subtitulo/Subtitulo.styles';
 import { TesteBiotipo } from '../../components/TesteBiotipo/TesteBiotipo';
-import { TituloInicial } from '../../components/TituloInicial/TituloInicial.styles';
-import { DivBaixeAppStyled2, DivContatos2Styled2, DivContatosStyled2, ImgEmailStyled2, ImgQrStyled2, LinkStyled2, PContatosStyled2, PEmailStyled2, RodapeStyled2 } from './TelaBiotipos.styles';
+import { TituloBase } from '../../components/TituloBase/TituloBase';
+import * as S from './TelaBiotipos.styles'
 import React from 'react';
+import { Footer } from '../../components/Footer/Footer';
 
 export const TelaBiotipos = () => {
     return(
         <>
             <Header />
             <DivCentralizadora>
-                <TituloInicial>Tipos de biotipos</TituloInicial>
+                <TituloBase>TIPOS DE BIOTIPOS</TituloBase>
                 <TextoBase>Os biotipos corporais podem ser classificados de acordo com as suas características. Os principais biotipos são: ectomorfo, endomorfo e mesomorfo.</TextoBase>
                 <TextoBase>Abaixo você encontrará dicas para descobrir o seu.</TextoBase>
                 <hr />
@@ -63,31 +64,17 @@ export const TelaBiotipos = () => {
                         de alimentos industrializados, e alimentos gordurosos.
                     </TextoBase>
                 </SubDiv>
-                <br />
-                <SubDiv>
-                    <SubtituloStyled>Teste</SubtituloStyled>
-                    <TextoBase>
-                        Se mesmo assim você não conseguir identificar, é possível fazer um teste rápido que consiste em abraçar o pulso com o dedo médio
-                        e o polegar. Assim como na imagem abaixo:
-                    </TextoBase>
-                </SubDiv>
-                <TesteBiotipo />
-                <TextoBase>Importante: esse teste não é oficial, mas pode te ajudar a ter uma noção do seu biotipo.</TextoBase>
             </DivCentralizadora>
-            <RodapeStyled2>
-                <DivContatosStyled2>
-                    <PContatosStyled2>Contato:</PContatosStyled2>
-                    <DivContatos2Styled2>
-                        <ImgEmailStyled2 src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/mail.png?raw=true" alt="Ícone de email"/>
-                        <PEmailStyled2>apphealthcare1@gmail.com</PEmailStyled2>
-                    </DivContatos2Styled2>
-                </DivContatosStyled2>
-                <DivBaixeAppStyled2>
-                    <PContatosStyled2>Conheça nosso projeto:</PContatosStyled2>
-                    <ImgQrStyled2 src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeBranco.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
-                    <LinkStyled2 href="https://github.com/theobarretosilva/HealthCare" target='_blank'>Projeto HealthCare</LinkStyled2>
-                </DivBaixeAppStyled2>
-            </RodapeStyled2>
+            <S.SectionTeste>
+                <TituloBase style={{ color: 'white' }}>TESTE</TituloBase>
+                <TextoBase style={{ color: 'white' }}>
+                    Se mesmo assim você não conseguir identificar, é possível fazer um teste rápido que consiste em abraçar o pulso com o dedo médio
+                    e o polegar. Assim como na imagem abaixo:
+                </TextoBase>
+                <TesteBiotipo />
+                <TextoBase style={{ color: 'white' }}>Importante: esse teste não é oficial, mas pode te ajudar a ter uma noção do seu biotipo.</TextoBase>
+            </S.SectionTeste>
+            <Footer />
         </>
     )
 }

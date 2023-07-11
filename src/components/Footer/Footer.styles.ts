@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const RodapeStyled2 = styled.footer`
+export const RodapeStyled = styled.footer`
     @media (min-width: 650px){
         display: flex;
         flex-direction: row;
@@ -9,7 +9,6 @@ export const RodapeStyled2 = styled.footer`
         gap: 30%;
         padding-top: 1%;
         padding-bottom: 2%;
-        background-color: #5F9499;
     }
 
     @media (max-width: 650px){
@@ -20,11 +19,10 @@ export const RodapeStyled2 = styled.footer`
         gap: 30%;
         padding-top: 1%;
         padding-bottom: 5%;
-        background-color: #5F9499;
     }
 `
 
-export const DivContatosStyled2 = styled.div`
+export const DivContatosStyled = styled.div`
     @media (min-width: 650px){
         display: flex;
         flex-direction: column;
@@ -37,12 +35,12 @@ export const DivContatosStyled2 = styled.div`
     }
 `
 
-export const PContatosStyled2 = styled.p`
+export const PContatosStyled = styled.p`
     @media (min-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 24px;
-        color: black;
+        color: #063E44;
         margin-bottom: 2%;
     }
 
@@ -50,12 +48,12 @@ export const PContatosStyled2 = styled.p`
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 7vw;
-        color: black;
+        color: #063E44;
         margin-bottom: 2%;
     }
 `
 
-export const DivContatos2Styled2 = styled.div`
+export const DivContatos2Styled = styled.div`
     @media (min-width: 650px){
         display: flex;
         flex-direction: row;
@@ -71,7 +69,7 @@ export const DivContatos2Styled2 = styled.div`
     }
 `
 
-export const ImgEmailStyled2 = styled.img`
+export const ImgEmailStyled = styled.img`
     @media (min-width: 650px){
         width: 2.5vw;
         height: 2vw;
@@ -83,12 +81,12 @@ export const ImgEmailStyled2 = styled.img`
     }
 `
 
-export const PEmailStyled2 = styled.p`
+export const PEmailStyled = styled.p`
     @media (min-width: 650px){
         font-family: 'Urbanist', sans-serif;
         font-weight: 400;
         font-size: 1.5vw;
-        color: white;
+        color: #0C5C64;
         margin: 0;
         margin-left: 3%;
     }
@@ -97,13 +95,13 @@ export const PEmailStyled2 = styled.p`
         font-family: 'Urbanist', sans-serif;
         font-weight: 400;
         font-size: 5vw;
-        color: white;
+        color: #0C5C64;
         margin: 0;
         margin-left: 3%;
     }
 `
 
-export const ImgPhoneStyled2 = styled.img`
+export const ImgPhoneStyled = styled.img`
     @media (min-width: 650px){
         width: 9%;
         height: 5%;
@@ -115,7 +113,7 @@ export const ImgPhoneStyled2 = styled.img`
     }
 `
 
-export const DivBaixeAppStyled2 = styled.div`
+export const DivBaixeAppStyled = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -124,13 +122,13 @@ export const DivBaixeAppStyled2 = styled.div`
     padding-bottom: 0;
 `
 
-export const ImgQrStyled2 = styled.img`
+export const ImgQrStyled = styled.img`
     width: 50%;
     height: 70%;
     margin-top: 0;
 `
 
-export const LinkStyled2 = styled.a`
+export const LinkStyled = styled.a`
     @media (min-width: 650px){
         font-family: 'Urbanist', sans-serif;
         font-weight: 400;
@@ -151,14 +149,4 @@ export const LinkStyled2 = styled.a`
         margin-top: 1%;
         text-decoration: underline;
     }
-`
-
-export const SectionTeste = styled.div`
-    background: #5F9499;
-    margin-top: 11vh;
-    padding-top: 1vh;
-    margin-right: 0;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 1%;
 `

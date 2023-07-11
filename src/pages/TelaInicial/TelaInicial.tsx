@@ -6,6 +6,8 @@ import { TextoBase } from "../../components/TextoBase/TextoBase.styles"
 import * as S from "./TelaInicial.styles"
 import React from "react"
 import { TituloInicial } from "../../components/TituloInicial/TituloInicial.styles"
+import { TituloBase } from "../../components/TituloBase/TituloBase"
+import { Footer } from "../../components/Footer/Footer"
 
 export const TelaInicial = () => {
     return(
@@ -13,7 +15,7 @@ export const TelaInicial = () => {
             <Header />
             <ImgHC />
             <section>
-                <S.H1Apres color="primary">APRESENTAÇÃO</S.H1Apres>
+                <TituloBase>APRESENTAÇÃO</TituloBase>
                 <DivCentralizadora>
                     <SubDiv>
                         <TituloInicial>Sobre o Aplicativo</TituloInicial>
@@ -26,15 +28,15 @@ export const TelaInicial = () => {
                     <SubDiv>
                         <TituloInicial>Funcionalidades</TituloInicial>
                         <TextoBase>
-                        Além da funcionalidades citadas acima, para tornar a experiência ainda melhor contamos com um pacote premium, com
-                        funções que podem encaminhar o paciente para clínicas conforme sua necessidade, acessar seus resultados de exames
-                        sem sair de casa, além de convênios especiais com as clínicas parceiras.
+                            Além da funcionalidades citadas acima, para tornar a experiência ainda melhor contamos com um pacote premium, com
+                            funções que podem encaminhar o paciente para clínicas conforme sua necessidade, acessar seus resultados de exames
+                            sem sair de casa, além de convênios especiais com as clínicas parceiras.
                         </TextoBase>
                     </SubDiv>
                 </DivCentralizadora>
             </section>
             <S.SectionEquipe>
-                <S.H1Apres style={{ color: 'white' }}>EQUIPE</S.H1Apres>
+                <TituloBase style={{ color: 'white' }}>EQUIPE</TituloBase>
                 <S.DivFotosEquipeStyled>
                     <S.DivFotosIndStyled>
                         <S.ImgEquipeStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/fotoIntegranteClarissa.png?raw=true" alt="Foto da integrante da equipe, Clarissa"/>
@@ -50,20 +52,7 @@ export const TelaInicial = () => {
                     </S.DivFotosIndStyled>
                 </S.DivFotosEquipeStyled>
             </S.SectionEquipe>
-            <S.RodapeStyled>
-                <S.DivContatosStyled>
-                    <S.PContatosStyled>Contato:</S.PContatosStyled>
-                    <S.DivContatos2Styled>
-                        <S.ImgEmailStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/mail.png?raw=true" alt="Ícone de email"/>
-                        <S.PEmailStyled>apphealthcare1@gmail.com</S.PEmailStyled>
-                    </S.DivContatos2Styled>
-                </S.DivContatosStyled>
-                <S.DivBaixeAppStyled>
-                    <S.PContatosStyled>Conheça nosso projeto:</S.PContatosStyled>
-                    <S.ImgQrStyled src="https://github.com/theobarretosilva/HealthCare-Site/blob/master/src/assets/imgs/qrCodeGithub.png?raw=true" alt="QRCode para ir ao GitHub do aplicativo"/>
-                    <S.LinkStyled href="https://github.com/theobarretosilva/HealthCare" target='_blank'>Projeto HealthCare</S.LinkStyled>
-                </S.DivBaixeAppStyled>
-            </S.RodapeStyled>
+            <Footer />
         </>
     );
 };
