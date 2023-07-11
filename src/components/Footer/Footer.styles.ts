@@ -6,9 +6,9 @@ export const RodapeStyled = styled.footer`
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 30%;
-        padding-top: 1%;
-        padding-bottom: 2%;
+        gap: 30vw;
+        padding-top: 2vh;
+        padding-bottom: 6vh;
     }
 
     @media (max-width: 650px){
@@ -16,9 +16,9 @@ export const RodapeStyled = styled.footer`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30%;
-        padding-top: 1%;
-        padding-bottom: 5%;
+        gap: 30vw;
+        padding-top: 2vh;
+        padding-bottom: 6vh;
     }
 `
 
@@ -39,9 +39,9 @@ export const PContatosStyled = styled.p`
     @media (min-width: 650px){
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 1.7vw;
         color: #063E44;
-        margin-bottom: 2%;
+        margin-bottom: 1vh;
     }
 
     @media (max-width: 650px){
@@ -49,7 +49,7 @@ export const PContatosStyled = styled.p`
         font-weight: 700;
         font-size: 7vw;
         color: #063E44;
-        margin-bottom: 2%;
+        margin-bottom: 1vh;
     }
 `
 
